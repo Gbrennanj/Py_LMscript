@@ -10,12 +10,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
+import sys
 
+sys.argv[1]
+pylm = sys.argv[1] 
 
 # In[3]:
 
 
-df = pd.read_csv("regrex1.csv")
+df = pd.read_csv(pylm)
 
 
 # In[4]:
